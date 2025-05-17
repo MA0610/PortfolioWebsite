@@ -59,6 +59,17 @@ const ProjectDetail = () => {
         images: [ProjectWebsitePic1,ProjectWebsitePic2],
         githubLink: "https://github.com/MA0610/DatabaseProjectWebsite"
       },
+       {
+        id: 5,
+        name: "Portfolio Website",
+        description:
+          "This is my personal website. I followed the example from GreatStack's 'How To Create Portfolio Website\
+           In React JS | Complete React JS Website\ Project Tutorial'. I added functionality for resume download button and made it\
+           so I had pages for information about each project. The github repository linked will pretty much work right away, all that would\
+           need to be added/fixed is for you to add your web3form access key into the Contact.jsx file.",
+        images: [],
+        githubLink: "https://github.com/MA0610/PortfolioWebsite"
+      },
 
 
     ];
