@@ -8,6 +8,7 @@ import PlantShopPic1 from "../../assets/project2_img1.png";
 import ArduinoFlappyPic1 from "../../assets/project3_img1.png";
 import ProjectWebsitePic1 from "../../assets/project4_img1.png";
 import ProjectWebsitePic2 from "../../assets/project4_img2.png";
+import MLNBAPredictionPic from "../../assets/project6_img1.png"
 
 
 const ProjectDetail = () => {
@@ -57,6 +58,27 @@ const ProjectDetail = () => {
           This project includes Flask-login user authentication and stores project information through a SQLAlchemy database. Users are able to filter through types of\
           uploaded projects through categories and are able to bookmark them to save them for later.",
         images: [ProjectWebsitePic1,ProjectWebsitePic2],
+        githubLink: "https://github.com/MA0610/DatabaseProjectWebsite"
+      },
+      {
+        id: 5,
+        name: "Portfolio Website",
+        description:
+          "This is the website you are currently on, this uses JS + React. I followed a tutorial from GreatStack and added functionality for\
+          resume download button and also made these pages so that users can look at all of my projects and have more in-depth explanations\
+          about them. This also links back to the github link for each project so that you could look at my work!",
+        images: [],
+        githubLink: "https://github.com/MA0610/PortfolioWebsite"
+      },
+      {
+        id: 6,
+        name: "ML NBA Prediction Website",
+        description:
+          "This is website made using Python + Flask meant to try and introduce myself to Machine Learning by using a tutorial from dataquest.\
+          This uses averages during a selected season for each team in order to determine who is more likely to win in a head to head matchup.\
+          The tuning isn't fully up there since I didn't incorporate defensive statistics or specific players being injured at certain times.\
+          This also uses regular season data which means that if a team made a major trade at the deadline the data might by skewed.",
+        images: [MLNBAPredictionPic],
         githubLink: "https://github.com/MA0610/DatabaseProjectWebsite"
       },
 
